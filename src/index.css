@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    font-family: sans-serif; /* Ganti dengan font yang Anda inginkan */
+}
+
+#root {
+    /* Style untuk kontainer utama aplikasi Anda */
+    display: flex;
+    flex-direction: column; /* Atau row, tergantung layout yang Anda inginkan */
+    min-height: 100vh; /* Memastikan tinggi kontainer minimal sama dengan tinggi viewport */
+}
+
+/* Contoh style untuk komponen Editor */
+.editor-container {
+    width: 50%; /* Atau sesuai kebutuhan Anda */
+    padding: 10px;
+    border-right: 1px solid #ccc; /* Contoh garis pemisah antara editor dan preview */
+}
+
+/* Contoh style untuk komponen Preview */
+.preview-container {
+    width: 50%; /* Atau sesuai kebutuhan Anda */
+    padding: 10px;
+}
+
+/* Anda bisa menambahkan style lain sesuai kebutuhan Anda */
